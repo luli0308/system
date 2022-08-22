@@ -1,0 +1,33 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 60px;
+  margin: 10px;
+  background-image: url(../../../public/logo.png);
+  background-size:175px 100px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  overflow: auto;
+}
+// 隐藏滚动条
+.site-layout-background::-webkit-scrollbar {
+  display: none;
+}
+section {
+  height: 100%;
+}
